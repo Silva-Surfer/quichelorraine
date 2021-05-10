@@ -59,24 +59,25 @@ body {
     background-color: rgba(130, 20, 120,);
     }
 
+
 /* header image properties */
 .masthead img {
     /* image will scale to width of container & maintain aspect ratio */
     width: 100%;
-    }
+}
+
 
 /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
 /* Container holding the image and the text */
     .button-container {
       position: relative;
-      width: 37.25;
+      width: 35%;
       left: 0%;
       font-size: 25px;
       font-family: 'Courier Prime', monospace;
       color: #bf9000;
       text-align: center;
       text-shadow: 1px 1px black;
-
       }
 
     /* Bottom left text */
@@ -181,7 +182,7 @@ body {
 #playlist-frame {
     width: 100%;
     overflow: hidden;
-    margin-bottom: 25vh;
+    margin-bottom: 0vh;
     }
 
 
@@ -193,7 +194,7 @@ body {
     position: relative;
     max-width: 100%;
     left: 0%;
-    height: 1400px;
+    height: 400px;
     /* what font should the titles be? */
     font-family: 'Courier Prime', monospace;
     text-align: center;
@@ -204,6 +205,9 @@ body {
     }
 
 .item {
+    /*position: relative;
+    width: 35%;
+    left: 32.5%;*/
     padding: 0;
     min-height: 3rem;
     align-self: center;
